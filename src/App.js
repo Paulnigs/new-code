@@ -1,20 +1,13 @@
-import { useState } from 'react';
-import Navbar from './Navbar';
-import Home from './Home';
-import Container from './Components/Container';
-import Header from './Components/header';
-import Hero from './Components/Hero';
-import Webinar from './Components/webinar';
-import Pricing from './Components/Pricing';
-import Footer from './Components/footer';
+
+// import Login from './Components/login';
+// import Register from './Components/register';
+// import Form from './Components/form';
+import Settings from './Components/settings/settings';
+// import Typo from './Components/settings/typo';
+// import PrivacySettings from './Components/settings/private';
+// import PasswordManager from './Components/settings/password';
 
 
-// function CreateEmoji(emojiPedia){
-//   return <Card name = {emojiPedia.name}
-//   title = {emojiPedia.title}
-//   meaning = {emojiPedia.meaning}
-//   />
-// }
 
 
 function App() {
@@ -22,18 +15,19 @@ function App() {
 
   return (
     <div className="">
+      {/* <Login 
+      isRegistered = {isLoggedIn}
+      />
+      <Register />
     
-      <Header />
-      
-      <Hero />
-      <h1 className='text-center text-3xl font-bold'>Upcoming Webinar:</h1>
-      <Webinar />
-      <h1 className='text-center text-3xl font-bold'>Explore Our Learning Paths:</h1>
-      <Container />
-      <Pricing />
-      <Footer />
-
+      <Form /> */}
+      <Settings />
+      {/* <Typo /> */}
+    
+      {/* <PrivacySettings />
+      <PasswordManager /> */}
     </div>
+  
   );
 }
 
